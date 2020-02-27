@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -11,106 +9,619 @@ nav {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 50px;
-  background-color: black;
+  height: 10vh;
+  background-color:red;
   z-index: 10;
+  padding-left:2vw;
+  
 }
 
 main {
-  width: 1024px;
-  padding-top: 100px;
+  width: 105vw;
+  padding-top: 5vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 nav main {
-  padding-top: 0px;
+  padding-top: 2.5vh;
+  
 }
 
 nav main a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  padding-top: 50px;
-  padding-right: 15px;
+  
+  padding-top: 1vh;
+  padding-right: 5vw;
+  text-decoration: underline;
+  
 }
 
 nav main a:hover {
-  text-decoration: underline;
-  color: yellow;
-}
-
-nav .selalukananatas {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  background-color: green;
-  border-radius: 15px;
+  text-decoration: bold;
+  color: white;
 }
 
 section {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-section.full {
-  background-image: url('../image/background.jpg');
+.background {
+  width: 105vw;
+  height:33vw;
+  padding-top: 27vw;
+  background-image: url('../image/wallpaper-01.jpg');
   background-size: cover;
-  background-position: top left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+
+.background3{
+width: 105vw;
+  height:33vw;
+  padding-top: 27vw;
+  background-image: url('../image/wallpaper3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  }
+.background2 {
+  width: 105vw;
+  height:33vw;
+  padding-top: 27vw;
+  padding-bottom: 10vw;
+  padding-left: -20vw;
+  background-image: url('../image/wallpaper2.jpg');
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
-section .left {
-  position: relative;
-  width: 40%;
-  height: 100%;
-  float: left;
+
+section .kotakpertama {
+  position:absolute;
+  margin-top:15vw;
+  margin-left:15vw;
+  margin-right:15vw;
+  background-color: white;
+
+  
+}
+
+section .kotakdalam {
+  position:absolute;
+  margin-top:40vw;
+  margin-left:15vw;
+  margin-right:15vw;
+/*  background-color: black*/
+}
+
+
+section .kanan {
+  background-image: url('../image/goofy1.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:5vw;
+  background-color:black;
 }
 
 section .right {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  float: left;
+  position : absolute;
+  width:45vw;
+  height:40vw;
+  margin-top:7.7vw;
+  margin-left: 50vw;
+  margin-right: 5vw;
+  float:left;
+/*  background-color:blue;*/
 }
 
-section .melayang {
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  width: 40%;
-  height: 200px;
-  /*background-color: pink;*/
+section .leftsatu {
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:7.7vw;
+  margin-left: 0vw;
+  float:left;
+/*  background-color:blue;*/
 }
-/**/
+#newsletter {
+   padding-left:72px;
+   color: white;
+   background: red;
+   
+ }
+ #newsletter h1{
+   float: left;
+ }
+ #newsletter form{
+   float: right;
+   margin-top:15px;
+ }
+ #newsletter input [type="email"]{
+   padding: 4px;
+   height : 25px;
+   width: 250px ;
+ }
+ .buttonsubs {
+   height : 30px;
+   background-color: white;
+   border: 0;
+   padding-left: 20px;
+   padding-right: 50px;
+   color: black;
+   
+ }
 
-h1 {
-  font-size: 40px;
-  font-family: 'Raleway', sans-serif;
-}
-
-@media (max-width: 1024px) {
-  main {
-    width: 100vw;
-  }
-  
-  section .left, section .right {
-    width: 100%;
-    height: 50vh;
-  }
-  
-  section .melayang {
-    top: 80%;
-    left: 10%;
-    width: 90%;
-  }
-  
- section.full {
-  background-image: url('../image/background.jpg');
+section .rightsatu {
+  background-image: url('../image/mono.jpg');
   background-size: cover;
-  background-position: top left;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:50vw;
+ /* background-color:#fcd12a;*/
+}
+
+section .leftdua {
+  background-image: url('../image/centeredtext.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:5vw;
+ /* background-color:#fcd12a;*/
+}
+
+section .rightdua {
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:7.7vw;
+  margin-left: 55vw;
+  float:left;
+/*  background-color:blue;*/
+}
+
+section .angka {
+  position:absolute;
+  width:40vw;
+  height: 60vw;
+  margin-top:0vw;
+  margin-left:4vw;
+  margin-right:5vw;
+  /*background:blue;*/
+  
+  
+}
+
+
+
+
+section .lefttiga {
+  
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:7.7vw;
+  margin-left: 5vw;
+  float:left;
+/*  background-color:blue;*/
+}
+
+section .righttiga {
+  background-image: url('../image/watermarks.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:50vw;
+/*  background-color:#fcd12a;*/
+}
+
+section .rightlima {
+  background-image: url('../image/email.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:50vw;
+/*  background-color:#fcd12a;*/
+}
+section .will {
+  position: relative;
+  background-image: url('../image/will.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:40vw;
+  height:5vw;
+  margin:auto;
+  padding-bottom:5vw;
+  background-position: center center;
+/*  background-color:blue;*/
+ 
+}
+
+section .will2{
+  /*position: relative;*/
+  background-image: url('../image/will2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:45vw;
+  height:20vw;
+  float:left;
+  background-position: center center;
+  margin-top: 2vw;
+  
+}
+
+
+
+section .head{
+  background-image: url('../image/head.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20vw;
+  height: 10vw;
+ margin-left:20vw;
+}
+
+section .alphabeth1 {
+  position: relative;
+  
+}
+
+section .aphabeth2 {
+  position:relative;
+}
+
+section .cal1 {
+  position:relative;
+}
+
+section .cal2 {
+  position:relative;
+}
+
+section .garispertama{
+  position:absolute;
+  margin-right:45vw;
+  margin-left:45vw;
+  margin-top:43vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: red;
+  
+}
+
+section .gariskedua {
+  position:absolute;
+  margin-right:45vw;
+  margin-left:45vw;
+  margin-top:65.5vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: black;
+  
+}
+
+section .garis3 {
+  position:absolute;
+  margin-right:45vw;
+  margin-left:63vw;
+  margin-top:78vw;
+  height:2vw;
+  width: 20vw;
+  background-color: red;
+  
+}
+
+section .garis4 {
+  position:absolute;
+  margin-right:55vw;
+  margin-left:21vw;
+  margin-top:75vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: black;
+}
+
+section .btw {
+  position : absolute;
+  width:45vw;
+  height:10vw;
+  margin-top:80vw;
+  margin-left: 50vw;
+  margin-right: 5vw;
+  float:left;
+  /*background-color:blue*/
+  
+}
+
+section .btw1 {
+  position : absolute;
+  width:45vw;
+  height:10vw;
+  margin-top:76vw;
+  margin-left:2vw;
+  float:left;
+/*  background-color:blue*/
+  
+}
+
+@media (max-width: 375px) {
+  .nav {
+    height:5vh;
+  }
+nav main a {
+  
+
+  padding-right: 2vw;
+  text-decoration: underline;
+  padding-left:2vw;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 105vw;
+  height: 5vh;
+  background-color:red;
+  z-index: 10;
+  padding-left:0vw;
+  
+}
+
+nav main {
+  padding-top: 0.3vh;
+  
+}
+
+.background {
+  width: 120vw;
+  height:33vw;
+  padding-top: 27vw;
+  background-image: url('../image/wallpaper-01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+.background2 {
+  width: 120vw;
+  height:33vw;
+  padding-top: 27vw;a
+  padding-left: -20vw;
+  background-image: url('../image/wallpaper2.jpg');
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
+
+.background3{
+width: 120vw;
+  height:33vw;
+  padding-top: 27vw;
+  background-image: url('../image/wallpaper3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  }
+section .kotakpertama {
+  position:absolute;
+width:250px;
+height:10vh;
+margin-right:25vw;
+  background-color: white;
+   
+}
+section .kotakdalam {
+  position:absolute;
+  margin-top:40vw;
+  margin-left:5vw;
+  margin-right:5vw;
+/*  background-color: black*/
+}
+section .gariskedua {
+  position:absolute;
+  margin-right:45vw;
+  margin-left:45vw;
+  margin-top:100vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: black;
+
+}
+section .kanan {
+  background-image: url('../image/goofy1.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:100vw;
+  height:45vw;
+  margin-top:9vw;
+  margin-left:0vw;
+  background-color:black;
+}
+
+section .right {
+  position : absolute;
+  width:100vw;
+  height:40vw;
+  margin-top:60vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  float:left;
+/*  background-color:blue;*/
+}
+
+section .btw {
+  position : absolute;
+  width:100vw;
+  height:10vw;
+  margin-top:147vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  float:left;
+  /*background-color:blue*/
+  
+}
+section .will2{
+  /*position: relative;*/
+  background-image: url('../image/will2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:100vw;
+  height:20vw;
+  float:left;
+  background-position: center center;
+  margin-top: 2vw;
+  
+}
+section .garis3 {
+  position:absolute;
+  margin-right:45vw;
+  margin-left:46vw;
+  margin-top:145vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: #fcd12a;
+  
+}
+section .rightsatu {
+  background-image: url('../image/12-02.png');
+background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:100vw;
+  height:45vw;
+  margin-top:9vw;
+  margin-left:0vw;
+  margin-right:0vw;
+  background-color:#fcd12a;
+}
+section .leftsatu {
+  position : absolute;
+  width:100vw;
+  height:45vw;
+  margin-top:55vw;
+  margin-left: 0vw;
+  float:left;
+  /*background-color:blue;*/
+}
+section .alphabeth1 {
+  position: relative;
+  margin-top:3vw;
+}
+
+section .aphabeth2 {
+  position:relative;
+}
+
+section .cal1 {
+  position:relative;
+}
+
+section .cal2 {
+  position:relative;
+}
+
+section .btw1 {
+  position : absolute;
+  width:100vw;
+  height:10vw;
+  margin-top:173vw;
+  margin-left:0vw;
+  float:left;
+/*  background-color:blue*/
+  
+}
+section .garis4 {
+  position:absolute;
+  margin-right:55vw;
+  margin-left:46vw;
+  margin-top:169vw;
+  height:0.5vw;
+  width: 10vw;
+  background-color: black;
+}
+section .leftdua {
+  background-image: url('../image/footnotes.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:100vw;
+  height:42vw;
+  margin-top:0vw;
+  margin-left:0vw;
+ /* background-color:#fcd12a;*/
+}
+section .rightdua {
+  position : absolute;
+  width:100vw;
+  height:40vw;
+  margin-top:38vw;
+  margin-left: 0vw;
+  float:left;
+/*  background-color:blue;*/
+}
+section .rightlima {
+  background-image: url('../image/email.jpg');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:40vw;
+  height:40vw;
+  margin-top:10vw;
+  margin-left:50vw;
+/*  background-color:#fcd12a;*/
+
+section .lefttiga {
+  position : absolute;
+  width:100vw;
+  height:40vw;
+  margin-top:30vw;
+  margin-left: 0vw;
+  float:left;
+/*  background-color:blue;*/
+}
+
+section .righttiga {
+  background-image: url('../image/12-04.png');
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  position : absolute;
+  width:100vw;
+  height:40vw;
+  margin-top:3.5vw;
+  margin-left:0vw;
+/*  background-color:#fcd12a;*/
+}
+
