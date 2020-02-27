@@ -1,0 +1,264 @@
+nav main {
+   text-align:left
+}
+
+nav main a {
+  color: black;
+  font-family: 'futura', sans-serif ;
+  font-size:20px;
+}
+
+
+
+h1 {
+  font-size: 110px;
+  font-family: 'futura', sans-serif ;
+  margin-bottom:10px;
+  text-align:center;
+  padding:4vw;
+  
+}
+
+h2 {
+  font-family: 'futura', sans-serif;
+   text-decoration: thin;
+  font-size: 17px;
+  padding-left:10vw;
+  padding-right:10vw;
+  padding-top: 5vw;
+  text-align: center;
+  color:white;
+  font-weight: normal;
+}
+  .melayang2 {
+  width: 100vw;
+  height: 100vw;
+  text-align: center;
+  font-family: 'Futura', sans-serif;
+  color: white;
+  /*background-color: pink;*/
+  }
+
+p {
+  font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-right:2vw;
+  padding-bottom:2vw;
+  padding-top:2vw;
+  text-align: left;
+  color:black;
+}
+p2 {
+  font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-right:2vw;
+  padding-bottom:2vw;
+  padding-top:2vw;
+  text-align: left;
+  color:white;
+}
+
+h5 {
+    font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-top:2vw;
+  text-align: center;
+  color:white;
+  padding-bottom:2vw;
+  
+}
+
+h6 {
+  font-family: 'futura', Serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left:2vw;
+  text-align: center;
+  color:red;
+}
+h7 {
+  font-family: 'futura', Serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left:2vw;
+  text-align: center;
+  color:red;
+}
+h8 {
+  font-family: 'futura', Serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color:WHITE;
+}
+
+
+h4 {
+  font-family: 'futura', sans-Serif;
+  font-size: 17px;
+  padding-left:2vw;
+  text-align: center;
+  color:white;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+  .melayang2 {
+  width: 105vw;
+  height: 120vw;
+  text-align: center;
+  font-family: 'Futura', sans-serif;
+  color: white;
+  /*background-color: pink;*/
+  }
+
+
+.alphabeth1 {
+  font-family: 'helvetica', Serif;
+  font-size: 25px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+ 
+}
+
+.alphabeth2{
+  
+  font-family: 'calibri', Serif;
+  font-size: 30px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+
+.cal1 {
+  
+  font-family: 'helvetica', Serif;
+  font-size: 30px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+
+.cal2 {
+  
+  font-family: 'calibri', Serif;
+  font-size: 30px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+
+@media (max-width: 1024px) {
+ nav main a {
+  color: black;
+  font-family: 'futura', sans-serif ;
+  font-size:8px;
+  padding-left:2vm;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'futura', sans-serif
+  margin-left:5vw;
+  margin-right:5vw;
+
+  
+}
+h2 {
+  font-family: 'futura', sans-serif;
+   text-decoration: thin;
+  font-size: 10px;
+  padding-left:5vw;
+  padding-right:5vw;
+  padding-top: 5vw;
+  text-align: center;
+  color:white;
+  font-weight: normal;
+}
+
+  .melayang2 {
+  width: 105vw;
+  height: 120vw;
+  text-align: center;
+  font-family: 'Futura', sans-serif;
+  color: white;
+  /*background-color: pink;*/
+  }
+
+p {
+  font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 12px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  padding-top:2vw;
+  text-align: left;
+  color:black;
+}
+.alphabeth1 {
+  font-family: 'helvetica', Serif;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+ 
+}
+
+.alphabeth2{
+  
+  font-family: 'calibri', Serif;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+
+.cal1 {
+  
+  font-family: 'helvetica', Serif;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+
+.cal2 {
+  
+  font-family: 'calibri', Serif;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-bottom:2vw;
+  text-align: center;
+  color:white;
+  
+}
+h5 {
+    font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding-left:2vw;
+  padding-top:2vw;
+  text-align: center;
+  color:white;
+  padding-bottom:2vw;
+  
+}
