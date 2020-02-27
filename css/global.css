@@ -8,7 +8,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 120vw;
   height: 10vh;
   background-color:red;
   z-index: 10;
@@ -133,33 +133,6 @@ section .leftsatu {
   float:left;
 /*  background-color:blue;*/
 }
-#newsletter {
-   padding-left:72px;
-   color: white;
-   background: red;
-   
- }
- #newsletter h1{
-   float: left;
- }
- #newsletter form{
-   float: right;
-   margin-top:15px;
- }
- #newsletter input [type="email"]{
-   padding: 4px;
-   height : 25px;
-   width: 250px ;
- }
- .buttonsubs {
-   height : 30px;
-   background-color: white;
-   border: 0;
-   padding-left: 20px;
-   padding-right: 50px;
-   color: black;
-   
- }
 
 section .rightsatu {
   background-image: url('../image/mono.jpg');
@@ -385,7 +358,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 105vw;
+  width: 10vw;
   height: 5vh;
   background-color:red;
   z-index: 10;
@@ -399,8 +372,8 @@ nav main {
 }
 
 .background {
-  width: 120vw;
-  height:33vw;
+  width: 100vw;
+  height:200vw;
   padding-top: 27vw;
   background-image: url('../image/wallpaper-01.jpg');
   background-size: cover;
@@ -409,9 +382,9 @@ nav main {
   
 }
 .background2 {
-  width: 120vw;
-  height:33vw;
-  padding-top: 27vw;a
+  width: 100vw;
+  height:200vw;
+  padding-top: 27vw;
   padding-left: -20vw;
   background-image: url('../image/wallpaper2.jpg');
   background-size: cover;
@@ -420,8 +393,8 @@ nav main {
 }
 
 .background3{
-width: 120vw;
-  height:33vw;
+width: 100vw;
+  height:200vw;
   padding-top: 27vw;
   background-image: url('../image/wallpaper3.jpg');
   background-size: cover;
