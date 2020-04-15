@@ -5,26 +5,26 @@
 }
 
 nav {
-  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 10vh;
-  background-color:red;
-  z-index: 10;
-  padding-left:2vw;
+  width: 75vw;
+  height: 50px;
+  background-color:rgba(150,205,232) ;
+  z-index: 100;
+  padding-left:25vw;
+  position:absolute;
   
 }
 
 main {
-  width: 105vw;
-  padding-top: 5vh;
+  width: 90%;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 nav main {
-  padding-top: 2.5vh;
+  padding-top: 1.5vh;
   
 }
 
@@ -38,590 +38,522 @@ nav main a {
 
 nav main a:hover {
   text-decoration: bold;
-  color: white;
+  color: black;
+}
+.sidebar {
+	float:right;
+	width:275px;
 }
 
-section {
+.background {
   width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
-.background {
-  width: 105vw;
-  height:33vw;
-  padding-top: 27vw;
-  background-image: url('../image/wallpaper-01.jpg');
+  height:100vw;
+  padding-top: 29%;
+  background-image: url('../image/wallpaper1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   
 }
 
-.background3{
-width: 105vw;
+.background2{
+  width: 100vw;
   height:33vw;
-  padding-top: 27vw;
-  background-image: url('../image/wallpaper3.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  
-  }
-.background2 {
-  width: 105vw;
-  height:33vw;
-  padding-top: 27vw;
-  padding-bottom: 10vw;
-  padding-left: -20vw;
+  padding-top: 50vw;
+  margin-top: 250px;
+  margin-left: -70px;
   background-image: url('../image/wallpaper2.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-
-section .kotakpertama {
-  position:absolute;
-  margin-top:15vw;
-  margin-left:15vw;
-  margin-right:15vw;
-  background-color: white;
-
-  
-}
-
-section .kotakdalam {
-  position:absolute;
-  margin-top:40vw;
-  margin-left:15vw;
-  margin-right:15vw;
-/*  background-color: black*/
-}
-
-
-section .kanan {
-  background-image: url('../image/goofy1.jpg');
+.background3{
+  width: 100vw;
+  height:33vw;
+  background-image: url('../image/wallpaper3.png');
   background-size: cover;
   background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:5vw;
-  background-color:black;
-}
-
-section .right {
-  position : absolute;
-  width:45vw;
-  height:40vw;
-  margin-top:7.7vw;
-  margin-left: 50vw;
-  margin-right: 5vw;
-  float:left;
-/*  background-color:blue;*/
-}
-
-section .leftsatu {
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:7.7vw;
-  margin-left: 0vw;
-  float:left;
-/*  background-color:blue;*/
-}
-#newsletter {
-   padding-left:72px;
-   color: white;
-   background: red;
-   
- }
- #newsletter h1{
-   float: left;
- }
- #newsletter form{
-   float: right;
-   margin-top:15px;
- }
- #newsletter input [type="email"]{
-   padding: 4px;
-   height : 25px;
-   width: 250px ;
- }
- .buttonsubs {
-   height : 30px;
-   background-color: white;
-   border: 0;
-   padding-left: 20px;
-   padding-right: 50px;
-   color: black;
-   
- }
-
-section .rightsatu {
-  background-image: url('../image/mono.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:50vw;
- /* background-color:#fcd12a;*/
-}
-
-section .leftdua {
-  background-image: url('../image/centeredtext.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:5vw;
- /* background-color:#fcd12a;*/
-}
-
-section .rightdua {
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:7.7vw;
-  margin-left: 55vw;
-  float:left;
-/*  background-color:blue;*/
-}
-
-section .angka {
-  position:absolute;
-  width:40vw;
-  height: 60vw;
-  margin-top:0vw;
-  margin-left:4vw;
-  margin-right:5vw;
-  /*background:blue;*/
-  
-  
-}
-
-
-
-
-section .lefttiga {
-  
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:7.7vw;
-  margin-left: 5vw;
-  float:left;
-/*  background-color:blue;*/
-}
-
-section .righttiga {
-  background-image: url('../image/watermarks.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:50vw;
-/*  background-color:#fcd12a;*/
-}
-
-section .rightlima {
-  background-image: url('../image/email.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:50vw;
-/*  background-color:#fcd12a;*/
-}
-section .will {
-  position: relative;
-  background-image: url('../image/will.png');
-  background-size: contain;
   background-repeat: no-repeat;
-  width:40vw;
-  height:5vw;
-  margin:auto;
-  padding-bottom:5vw;
-  background-position: center center;
-/*  background-color:blue;*/
- 
+}
+.artikel {
+  width: 100%;
+  height: 55vh;
+  margin-left:0vw;
+  margin-right:30vw;
+  margin-top : -100px;
+  background-color: transparent;
+  display: block;
 }
 
-section .will2{
-  /*position: relative;*/
-  background-image: url('../image/will2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width:45vw;
-  height:20vw;
-  float:left;
-  background-position: center center;
-  margin-top: 2vw;
-  
-}
-
-
-
-section .head{
-  background-image: url('../image/head.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 20vw;
-  height: 10vw;
- margin-left:20vw;
-}
-
-section .alphabeth1 {
-  position: relative;
-  
-}
-
-section .aphabeth2 {
-  position:relative;
-}
-
-section .cal1 {
-  position:relative;
-}
-
-section .cal2 {
-  position:relative;
-}
-
-section .garispertama{
-  position:absolute;
-  margin-right:45vw;
-  margin-left:45vw;
-  margin-top:43vw;
-  height:0.5vw;
-  width: 10vw;
-  background-color: red;
-  
-}
-
-section .gariskedua {
-  position:absolute;
-  margin-right:45vw;
-  margin-left:45vw;
-  margin-top:65.5vw;
-  height:0.5vw;
-  width: 10vw;
-  background-color: black;
-  
-}
-
-section .garis3 {
-  position:absolute;
-  margin-right:45vw;
-  margin-left:63vw;
-  margin-top:78vw;
-  height:2vw;
-  width: 20vw;
-  background-color: red;
-  
-}
-
-section .garis4 {
-  position:absolute;
-  margin-right:55vw;
-  margin-left:21vw;
-  margin-top:75vw;
-  height:0.5vw;
-  width: 10vw;
-  background-color: black;
-}
-
-section .btw {
-  position : absolute;
-  width:45vw;
-  height:10vw;
-  margin-top:80vw;
-  margin-left: 50vw;
-  margin-right: 5vw;
-  float:left;
-  /*background-color:blue*/
-  
-}
-
-section .btw1 {
-  position : absolute;
-  width:45vw;
-  height:10vw;
-  margin-top:76vw;
-  margin-left:2vw;
-  float:left;
-/*  background-color:blue*/
-  
-}
-
-@media (max-width: 375px) {
-  .nav {
-    height:5vh;
-  }
-nav main a {
-  
-
-  padding-right: 2vw;
-  text-decoration: underline;
-  padding-left:2vw;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 105vw;
+.trending {
+  width: 100%;
   height: 5vh;
-  background-color:red;
-  z-index: 10;
-  padding-left:0vw;
-  
+  background-color: transparent;
+  display: block;
 }
 
-nav main {
-  padding-top: 0.3vh;
-  
+.boxsatu {
+  width: 100%;
+  height: 42vh;
+  margin-top: 20;
+  background-color: transparent;
+  display: block;
+}
+.boxdua {
+  width: 297px;
+  height: 50vh;
+  margin-top: 10px;
+  margin-left: 609px;
+  background-color: rgba(167,194,203);
+  display: block;
 }
 
-.background {
-  width: 120vw;
-  height:33vw;
-  padding-top: 27vw;
-  background-image: url('../image/wallpaper-01.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  
-}
-.background2 {
-  width: 120vw;
-  height:33vw;
-  padding-top: 27vw;
-  padding-left: -20vw;
-  background-image: url('../image/wallpaper2.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+.artikelx {
+  width: 100%;
+  height: 35vh;
+  margin-left:0vw;
+  margin-right:30vw;
+  margin-top :0;
+  background-color: transparent;
+  display: block;
 }
 
-.background3{
-width: 120vw;
-  height:33vw;
-  padding-top: 27vw;
-  background-image: url('../image/wallpaper3.jpg');
+.artikel1 {
+  width: 45%;
+  height:100%;
+  margin-right: 2%;
+  background-image: url('../image/dog1.jpg');
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  
-  }
-section .kotakpertama {
-  position:absolute;
-width:250px;
-height:10vh;
-margin-right:25vw;
-  background-color: white;
-   
+  background-position: center;
+  float: left;
+  text-align: center;
 }
-section .kotakdalam {
-  position:absolute;
-  margin-top:40vw;
-  margin-left:5vw;
-  margin-right:5vw;
-/*  background-color: black*/
+
+.artikel2 {
+  width: 23%;
+  height: 100%;
+  background-image: url('../image/dog2.jpg');
+  margin-right: 200px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
 }
-section .gariskedua {
-  position:absolute;
-  margin-right:45vw;
-  margin-left:45vw;
-  margin-top:100vw;
-  height:0.5vw;
-  width: 10vw;
+ .caption {
+   width : 45% ;
+   height : 8.2vh ;
+   margin-top: -5%;
+   margin-bottom: 20;
+   background-color: rgba(167,194,203);
+   display: block;
+ }
+ 
+.sidebar {
+	float:right;
+	width:275px;
+	margin-right: 100px;
+	margin-top: -1400px;
+}
+ 
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #3498db;
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:skyblue ;
+	font-size: 23px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+ 
+.sidebar .widget p {
+	font-size: 15px;
+	
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+
+}
+
+.trending {
+  width: 100%;
+  height: 4vh;
+  background-color: transparent;
+  display: block;
+}
+.artikeljs {
+  width: 100%;
+  height: 45vh;
+  background-color: transparent;
+  display: block;
+}
+
+.filmone {
+  width: 100%;
+  height: 45vh;
+  margin-top: 20;
+  background-color: transparent;
+  display: block;
+}
+
+.artikelposter {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog3.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter1 {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog4.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter2 {
+  width: 30%;
+  height: 100%;
+  margin-right: 0;
+  background-image: url('../image/dog5.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter3 {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog13.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter4 {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog15.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter5 {
+  width: 30%;
+  height: 100%;
+  margin-right: 0;
+  background-image: url('../image/dog16.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter6 {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog24.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter7 {
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background-image: url('../image/dog30.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+.artikelposter8 {
+  width: 30%;
+  height: 100%;
+  background-image: url('../image/dog34.jpg');
+  background-size: cover;
+  background-position: center;
+  float: left;
+  text-align: center;
+}
+
+
+.filmposter p {
+  padding-top: 25%;
+  color: transparent;
+}
+
+.filmposter:hover {
   background-color: black;
-
-}
-section .kanan {
-  background-image: url('../image/goofy1.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:100vw;
-  height:45vw;
-  margin-top:9vw;
-  margin-left:0vw;
-  background-color:black;
+  opacity: 0.5;
 }
 
-section .right {
-  position : absolute;
-  width:100vw;
-  height:40vw;
-  margin-top:60vw;
-  margin-left: 0vw;
-  margin-right: 0vw;
-  float:left;
-/*  background-color:blue;*/
+.filmposter p:hover {
+  color: white;
+  display: block;
 }
 
-section .btw {
-  position : absolute;
-  width:100vw;
-  height:10vw;
-  margin-top:147vw;
-  margin-left: 0vw;
-  margin-right: 0vw;
-  float:left;
-  /*background-color:blue*/
-  
-}
-section .will2{
-  /*position: relative;*/
-  background-image: url('../image/will2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width:100vw;
-  height:20vw;
-  float:left;
-  background-position: center center;
-  margin-top: 2vw;
-  
-}
-section .garis3 {
-  position:absolute;
-  margin-right:45vw;
-  margin-left:46vw;
-  margin-top:145vw;
-  height:0.5vw;
-  width: 10vw;
-  background-color: #fcd12a;
-  
-}
-section .rightsatu {
-  background-image: url('../image/12-02.png');
-background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:100vw;
-  height:45vw;
-  margin-top:9vw;
-  margin-left:0vw;
-  margin-right:0vw;
-  background-color:#fcd12a;
-}
-section .leftsatu {
-  position : absolute;
-  width:100vw;
-  height:45vw;
-  margin-top:55vw;
-  margin-left: 0vw;
-  float:left;
-  /*background-color:blue;*/
-}
-section .alphabeth1 {
-  position: relative;
-  margin-top:3vw;
+
+
+.filmposter1 p {
+  padding-top: 25%;
+  color: transparent;
 }
 
-section .aphabeth2 {
-  position:relative;
-}
-
-section .cal1 {
-  position:relative;
-}
-
-section .cal2 {
-  position:relative;
-}
-
-section .btw1 {
-  position : absolute;
-  width:100vw;
-  height:10vw;
-  margin-top:173vw;
-  margin-left:0vw;
-  float:left;
-/*  background-color:blue*/
-  
-}
-section .garis4 {
-  position:absolute;
-  margin-right:55vw;
-  margin-left:46vw;
-  margin-top:169vw;
-  height:0.5vw;
-  width: 10vw;
+.filmposter1:hover {
   background-color: black;
+  opacity: 0.5;
 }
-section .leftdua {
-  background-image: url('../image/footnotes.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:100vw;
-  height:42vw;
-  margin-top:0vw;
-  margin-left:0vw;
- /* background-color:#fcd12a;*/
-}
-section .rightdua {
-  position : absolute;
-  width:100vw;
-  height:40vw;
-  margin-top:38vw;
-  margin-left: 0vw;
-  float:left;
-/*  background-color:blue;*/
-}
-section .rightlima {
-  background-image: url('../image/email.jpg');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:40vw;
-  height:40vw;
-  margin-top:10vw;
-  margin-left:50vw;
-/*  background-color:#fcd12a;*/
-
-section .lefttiga {
-  position : absolute;
-  width:100vw;
-  height:40vw;
-  margin-top:30vw;
-  margin-left: 0vw;
-  float:left;
-/*  background-color:blue;*/
+.filmposter1 p:hover {
+  color: white;
+  display: block;
 }
 
-section .righttiga {
-  background-image: url('../image/12-04.png');
-  background-size: cover;
-  background-position: center center;
-  /*background-repeat: no-repeat;*/
-  position : absolute;
-  width:100vw;
-  height:40vw;
-  margin-top:3.5vw;
-  margin-left:0vw;
-/*  background-color:#fcd12a;*/
+
+
+
+.filmposter2 p {
+  padding-top: 25%;
+  color: transparent;
 }
 
+.filmposter2:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+.filmposter2 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.filmposter3 p {
+  padding-top: 25%;
+  color: transparent;
+}
+
+.filmposter3:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+.filmposter3 p:hover {
+  color: white;
+  display: block;
+}
+
+.filmposter4 p {
+  padding-top: 25%;
+  color: transparent;
+}
+.filmposter4:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+.filmposter4 p:hover {
+  color: white;
+  display: block;
+}
+
+section.full2 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 17vw;
+  background-image: url('../image/wallpaper4.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full3 {
+  width: 100%;
+  height: 100vh;
+  margin-top : -12%;
+  background-image:url('../image/wallpaper5.jpg');
+  background-size: cover;
+  display: none;
+
+}
+.bgputih {
+  width: 100%;
+  height: 100vh;
+  background-image:url('../image/wallpaper6.jpg');
+  background-size: cover;
+  display: none;
+}
+
+.judul {
+  width: 50%;
+  height: 30%;
+  padding-left : 22vw;
+  margin-top: 10vh;
+  background-color: transparent;
+  display: block;
+}
+
+.judul2 {
+  width: 50%;
+  height: 30%;
+  padding-left : 35vw;
+  margin-top: 10vh;
+  background-color: transparent;
+  display: block;
+}
+
+.description {
+  width: 70%;
+  height: 20%;
+  margin-top: 2vh;
+  margin-left : 12vw;
+  background-color:transparent;
+  display: block;
+}
+.title {
+  width : 100%;
+  height: 55px;
+  margin-left: -3vw;
+  margin-top: 1vh;
+  background-color : transparent;
+  display : block ;
+}
+.name {
+  width : 100%;
+  height: 55px;
+  margin-top: 20vh;
+  background-color : transparent;
+  display : block ;
+}
+.deskripsi {
+  width: 49%;
+  height: 150px;
+  margin-top: 5vh;
+  float : right ;
+  background-color : transparent;
+  display : block ;
+}
+.foto {
+  width: 49%;
+  height: 300px;
+  margin-top: 5vh;
+  float : left ;
+  background-image : url('../image/dog6.jpg');
+  display : block ;
+}
+.foto2 {
+  width: 49%;
+  height: 270px;
+  margin-top: 5vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog10.jpg');
+  display : block ;
+}
+.foto3 {
+  width: 40%;
+  height: 270px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog12.jpg');
+  display : block ;
+}
+.foto4 {
+  width: 40%;
+  height: 290px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog25.jpg');
+  display : block ;
+}
+.foto5 {
+  width: 50%;
+  height: 190px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog29.jpg');
+  display : block ;
+}
+.foto6 {
+  width: 45%;
+  height: 270px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog32.jpg');
+  display : block ;
+}
+.foto7 {
+  width: 36%;
+  height: 200px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog33.jpg');
+  display : block ;
+}
+
+.foto8 {
+  width: 45%;
+  height: 275px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog35.jpg');
+  display : block ;
+}
+
+.foto9 {
+  width: 42%;
+  height: 275px;
+  margin-top: 4vh;
+  padding-bottom : 14vh;
+  float : left ;
+  background-image : url('../image/dog37.jpg');
+  display : block ;
+}
+.breed {
+  width: 40%;
+  height: 150px;
+  float : right ;
+  background-color :transparent;
+  display : block ;
+}
+
+.text {
+  width: 70%;
+  height: 20%;
+  margin-top: 2vh;
+  margin-left : 12vw;
+  background-color:transparent;
+  display: block;
+}
